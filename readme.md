@@ -1,4 +1,4 @@
-# Spatha Matrix Multiplication Acceleration Project
+# Dense and Sparse Matrix Multiplication Acceleration Project
 
 ## Introduction
 This project focuses on the matrix multiplication of $X \times W = Y$ where $X$ is a **dense matrix** and  $W$ is a **sparse matrix**. The key transformation applied is converting the multiplication to $W^T \times X^T = Y^T$, and then utilizing the capabilities of the `spatha` library to accelerate this computation.
